@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-image: url("campus.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #20383a;
+
+.hero {
+    min-height: 100vh;
+    width: 100%;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 7%;
+    
+}
+
+.navbar a {
+    color: #20383a;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 46px; 
+    line-height: 1.1;
+    margin: 35px auto 25px;
+    max-width: 750px;
+    color: #39334b;
+}
+}
+
+.hero-content p {
+    font-size: 18px; 
+    line-height: 1.4;
+    margin: 20px auto 30px;
+    max-width: 650px;
+}
+
+
+
+.hero-content button {
+    padding: 12px 28px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background: #0000ff;
+    color: white;
+    margin-bottom: 10px;
+    margin: 8px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#btn{
+   margin-bottom: 30px;
+    padding: 10px;
+    background-color: white; 
+    color: #000000;
+    border: 1px solid#168aad;
+}
